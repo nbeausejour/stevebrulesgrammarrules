@@ -13,6 +13,7 @@ for (var i = 0; i < elements.length; i++) {
             var replacedText = text.replace(/(Sushi)/gi, 'Shushi');
             var replacedText = text.replace(/(Skateboard)/gi, 'Skrateboard');
             var replacedText = text.replace(/(Airplane)/gi, 'Jumbo Jret');
+            var replacedText = text.replace(/(Casino)/gi, 'Crasino');
 
             if (replacedText !== text) {
                 element.replaceChild(document.createTextNode(replacedText), node);
