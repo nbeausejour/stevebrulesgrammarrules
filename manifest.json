@@ -1,0 +1,18 @@
+{
+"manifest_version": 2,
+    "name": "Brule's Rules Grammar Guide",
+    "description": "For Your Health",
+    "version": "1.1",
+    "icons": { "128": "SB.png" },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}
