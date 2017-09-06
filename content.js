@@ -14,6 +14,8 @@ for (var i = 0; i < elements.length; i++) {
             var replacedText = text.replace(/(Skateboard)/gi, 'Skrateboard');
             var replacedText = text.replace(/(Airplane)/gi, 'Jumbo Jret');
             var replacedText = text.replace(/(Casino)/gi, 'Crasino');
+            var replacedText = text.replace(/(Orangutan)/gi, 'Dangatang');
+            var replacedText = text.replace(/(Kayak)/gi, 'Krayak');
 
             if (replacedText !== text) {
                 element.replaceChild(document.createTextNode(replacedText), node);
